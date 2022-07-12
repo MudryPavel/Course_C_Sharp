@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// 2. Напишите программу, которая выводит случайное число
+//    из отрезка [10, 99] и показывает наибольшую цифру числа.
 
 int MaxDigit(int Number)
 {
