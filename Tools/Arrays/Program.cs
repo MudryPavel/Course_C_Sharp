@@ -86,3 +86,20 @@ int[] ArrayElementSignChanger(int[] array1)
     }
     return(array1);    
 }
+
+// Разность максимального и минимального элементов массива
+int ArrayMinMaxDelta(int[] array1)
+{
+    int Min = array1[0];
+    int Max = array1[0];
+    for(int i=1; i < array1.Length; i++)
+    {
+        if(array1[i]<Min)
+            Min = array1[i];
+        if(array1[i]>Max)
+            Max = array1[i];    
+    }
+    Console.WriteLine();
+    Console.WriteLine($"{Max-Min} ");
+    return(Max-Min);
+}
