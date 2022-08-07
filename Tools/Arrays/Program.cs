@@ -52,9 +52,9 @@ void ArrayElementCounter(int[] array)
 // Счетчик количества и суммы элементов в указанном интервале
 void ArrayElementSumCounter(int[] array1)
 {
-    Console.WriteLine("Input elemet's counting min");
+    Console.WriteLine("Input element's counting min");
     int min = int.Parse(Console.ReadLine());
-    Console.WriteLine("Input elemet's counting max");
+    Console.WriteLine("Input element's counting max");
     int max = int.Parse(Console.ReadLine());
     int a=0;
     int Sum=0;
