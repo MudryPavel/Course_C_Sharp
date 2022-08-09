@@ -25,7 +25,7 @@ void ArrayElementCounter(int[] array)
         if(array[i]==s)
             a+=1;     
     }
-    if (s==0)
+    if (a==0)
         Console.WriteLine("This value isn't found in array");
     else
         Console.WriteLine($"This value is found in array {a} times");
