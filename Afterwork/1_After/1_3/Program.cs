@@ -44,7 +44,7 @@ int BinarySearch (int[] array, int find)
     while (low <= high && flag == 0)
     {
         middle=((high+low)/2);
-        Console.WriteLine ($"{low}, {middle}, {high}");
+        // Console.WriteLine ($"{low}, {middle}, {high}");
         guess = array[middle];
         if (guess == find)
             {
@@ -59,7 +59,7 @@ int BinarySearch (int[] array, int find)
     if (guess == find)
             {
             middle=((high+low)/2);
-            Console.WriteLine ($"{low}, {middle}, {high}");
+            // Console.WriteLine ($"{low}, {middle}, {high}");
             guess = array[middle];
             flag=1;
             pos=middle+1;
